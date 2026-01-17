@@ -17,25 +17,25 @@
 export const ASSETS = {
   HERO: {
     // Đề xuất: /images/hero/main-banner.jpg
-    BACKGROUND: "https://picsum.photos/1920/1080", 
+    BACKGROUND: "/picture/hero/hero-main-banner.jpg", 
   },
   EQUIPMENT: {
     // Đề xuất: /images/equipment/s7-1200-kit.jpg
-    S7_1200: "https://picsum.photos/seed/S7-1200/800/600",
+    S7_1200: "/picture/equipment/s7-1200-kit.jpg",
     // Đề xuất: /images/equipment/s7-1500-kit.jpg
-    S7_1500: "https://picsum.photos/seed/S7-1500/800/600",
+    S7_1500: "/picture/equipment/s7-1500-kit.jpg",
     // Đề xuất: /images/equipment/servo-v90.jpg
-    SERVO: "https://picsum.photos/seed/Servo/800/600",
+    SERVO: "/picture/equipment/servo-v90.jpg",
     // Đề xuất: /images/equipment/iot-gateway.jpg
-    IOT_KIT: "https://picsum.photos/seed/IoT/800/600",
+    IOT_KIT: "/picture/equipment/iot-gateway.png",
   },
   RESEARCH: {
     // Đề xuất: /images/research/automation-solution.jpg
-    AUTOMATION: "https://picsum.photos/seed/research0/400/300",
+    AUTOMATION: "/picture/research/digital-twin-sim.jpg",
     // Đề xuất: /images/research/education-kit.jpg
-    EDUCATION: "https://picsum.photos/seed/research1/400/300",
+    EDUCATION: "/picture/research/scada-monitor.jpg",
     // Đề xuất: /images/research/agriculture-iot.jpg
-    AGRICULTURE: "https://picsum.photos/seed/research2/400/300",
+    AGRICULTURE: "/picture/research/smart-agriculture.jpg",
   },
   ABOUT: {
     // Đề xuất: /images/about/history-founding.jpg
@@ -47,13 +47,13 @@ export const ASSETS = {
   },
   GALLERY: {
     // Đề xuất: /images/gallery/lab-overview.jpg
-    IMG1: "https://picsum.photos/seed/gal1/800/800", // Vuông hoặc chữ nhật lớn
+    IMG1: "/picture/gallery/goc-lam-viec-chill.jpg", // Vuông hoặc chữ nhật lớn
     // Đề xuất: /images/gallery/students-working.jpg
-    IMG2: "https://picsum.photos/seed/gal2/600/800", // Dọc
+    IMG2: "/picture/gallery/students-working.jpg", // Dọc
     // Đề xuất: /images/gallery/seminar.jpg
-    IMG3: "https://picsum.photos/seed/gal3/800/600", // Ngang
+    IMG3: "/picture/gallery/teaching-session.jpg", // Ngang
     // Đề xuất: /images/gallery/circuit-detail.jpg
-    IMG4: "https://picsum.photos/seed/gal4/600/600", // Vuông nhỏ
+    IMG4: "/picture/gallery/circuit-macro.jpg", // Vuông nhỏ
     // Đề xuất: /images/gallery/robot-arm.jpg
     IMG5: "https://picsum.photos/seed/gal5/800/600", // Ngang
     // Đề xuất: /images/gallery/team-discussion.jpg

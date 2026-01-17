@@ -12,6 +12,8 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        allowedHosts: ["demo.aiotlab.id.vn"]
+      
       },
       plugins: [react()],
       define: {

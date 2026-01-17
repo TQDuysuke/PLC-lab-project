@@ -14,6 +14,23 @@ export const ResearchPage: React.FC = () => {
         </ScrollReveal>
 
         <div className="space-y-20">
+            {/* Project bo */}
+            <ScrollReveal className="grid md:grid-cols-2 gap-12 items-center">
+                 <div className="h-80 rounded-2xl overflow-hidden shadow-lg">
+                     <img src={ASSETS.RESEARCH.AUTOMATION} alt="Digital Twin" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"/>
+                </div>
+                <div>
+                    <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mb-4">Dự án Cấp Bộ / Trường</div>
+                    <h2 className="text-3xl font-bold mb-4">Hệ thống cảnh báo và tiêu diệt ruồi vàng hại cây ăn quả ứng dụng công nghệ AIoT (Artificial intelligence of things)</h2>
+                    <p className="text-gray-600 mb-6 leading-relaxed">
+                        Xây dựng mô hình ảo hóa của dây chuyền thực tế trên nền tảng Siemens NX MCD. Cho phép chạy mô phỏng (Virtual Commissioning) kiểm tra lỗi thuật toán PLC trước khi nạp xuống phần cứng thật, giúp giảm rủi ro và chi phí vận hành.
+                    </p>
+                    <div className="bg-gray-50 p-4 rounded-xl border-l-4 border-purple-500">
+                        <p className="text-sm font-semibold text-gray-800">Công nghệ:</p>
+                        <p className="text-sm text-gray-600">NX MCD, PLCSIM Advanced, S7-1500, OPC UA.</p>
+                    </div>
+                </div>
+            </ScrollReveal>
             {/* Project 1 */}
             <ScrollReveal className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
@@ -53,8 +70,8 @@ export const ResearchPage: React.FC = () => {
              {/* Project 3 */}
              <ScrollReveal className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
-                    <div className="inline-block px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-bold mb-4">Chuyển giao công nghệ</div>
-                    <h2 className="text-3xl font-bold mb-4">Hệ thống SCADA nhà máy xay xát lúa gạo</h2>
+                    <div className="inline-block px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-bold mb-4">Edge AIoT</div>
+                    <h2 className="text-3xl font-bold mb-4">Hệ thống phân loại ớt dựa trên màu sắc ứng dụng mô hình ANN và Raspberry PI camera</h2>
                     <p className="text-gray-600 mb-6 leading-relaxed">
                         Tư vấn và thiết kế hệ thống điều khiển tự động hóa hoàn toàn cho nhà máy gạo, tích hợp cân định lượng tự động, điều khiển băng tải và quản lý năng suất theo thời gian thực.
                     </p>
